@@ -1,0 +1,11 @@
+{
+  "name": "anyancatbot",
+  "version": "1.0.0",
+  "description": "anyancatbot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC"
+}
