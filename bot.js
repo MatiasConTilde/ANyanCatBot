@@ -6,24 +6,14 @@ var config = require('./config');
 var T = new Twit(config);
 var stream = T.stream('user');
 
-stream.on('follow', followed);
-
-function followed(eventMsg) {
+stream.on('follow', function (eventMsg) {
   console.log("Follow event!");
   var name = eventMsg.source.name;
   var screenName = eventMsg.source.screen_name;
-  tweetIt('@' + screenName + ' hello!');
-}
-
-function tweetIt(txt){
-  var tweet = {
-    status: txt
-  }
-
-  T.post('statuses/update', tweet, tweeted);
-}
-
-function tweeted(err, data, response) {
-  if (err) console.log("Something went wrong!");
-  else console.log("It worked!");
-}
+  T.post('statuses/update', var tweet = {
+    status: '@' + screenName + ' hello!'
+  }, function (err, data, response) {
+    if (err) console.log("Something went wrong!");
+    else console.log("It worked!");
+  });
+});
