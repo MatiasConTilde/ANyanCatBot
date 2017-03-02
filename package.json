@@ -1,11 +1,27 @@
 {
   "name": "anyancatbot",
   "version": "1.0.0",
-  "description": "anyancatbot",
+  "description": "ANyanCatBot",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "me",
-  "license": "ISC"
+  "author": "ANyanCatFan",
+  "license": "MIT",
+  "dependencies": {
+    "twit": "^2.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANyanCatFan/ANyanCatBot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/ANyanCatFan/ANyanCatBot/issues"
+  },
+  "homepage": "https://github.com/ANyanCatFan/ANyanCatBot#readme"
 }
