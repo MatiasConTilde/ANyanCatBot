@@ -4,7 +4,8 @@
   "description": "ANyanCatBot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"\u00AF\\_(\u30C4)_\/\u00AF\""
   },
   "author": "ANyanCatFan",
   "license": "MIT",
